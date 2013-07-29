@@ -1,0 +1,146 @@
+/*CUSTOM STYLES*/
+	ul.prodDetails{
+		list-style: none;
+	}
+
+	ul#main{
+		margin: 20px 0 0 300px;
+	}
+
+	ul#main li{
+		float: left;
+		list-style: none;
+		width: 300px;
+		margin: 0 20px 0 0;
+		position: relative;
+		min-height: 200px;
+	}
+
+		div.prodDetails{
+			background-color: white !important;
+			margin: 0;
+			position: absolute;
+			left:0;
+			width: 300px;
+			min-height: auto;
+			overflow: hidden;
+		}
+
+		div.prodDetails div.wrapper{
+			width: 600px;
+		}
+
+		div.prodDetails div{
+			background-color: inherit;
+			display: inline-block;
+			position: relative;
+			width: 298px;
+		}
+
+		a[title="CLOSE"]{
+			position: absolute;
+			right: 0;
+			top:0;	
+		}
+
+		.open{
+			-ms-animation: open 0.3s normal ease-out forwards;
+			-moz-animation: open 0.3s normal ease-out forwards;
+			-webkit-animation: open 0.3s normal ease-out forwards;
+			animation: open 0.3s normal ease-out forwards;
+		}
+
+		.close{
+			-ms-animation: close 0.3s normal ease-out forwards;
+			-moz-animation: close 0.3s normal ease-out forwards;
+			-webkit-animation: close 0.3s normal ease-out forwards;
+			animation: close 0.3s normal ease-out forwards;
+		}
+
+		@-ms-keyframes open {
+			0% {
+				top: 0; left: 0;
+				width: 300px;
+			}
+		
+			100% {
+				top: 0; left: -300px;
+				width: 600px;
+			}
+
+		}
+
+		@-ms-keyframes close {
+			0% {
+				top: 0; left: -300px;
+				width: 600px;
+			}
+		
+			100% {
+				top: 0; left: 0;
+				width: 300px;
+			}
+
+		}
+
+		@-webkit-keyframes open {
+			0% {
+				top: 0; left: 0;
+				width: 300px;
+			}
+		
+			100% {
+				top: 0; left: -300px;
+				width: 600px;
+			}
+
+		}
+
+		@-moz-keyframes open {
+			0% {
+				top: 0; left: 0;
+				width: 300px;
+			}
+		
+			100% {
+				top: 0; left: -300px;
+				width: 600px;
+			}
+
+		}
+
+		@-webkit-keyframes close {
+			0% {
+				top: 0; left: -300px;
+				width: 600px;
+			}
+		
+			100% {
+				top: 0; left: 0;
+				width: 300px;
+			}
+
+		}
+
+		@-moz-keyframes close {
+			0% {
+				top: 0; left: -300px;
+				width: 600px;
+			}
+		
+			100% {
+				top: 0; left: 0;
+				width: 300px;
+			}
+
+		}
+
+/*form*/
+form{
+	margin: 14px 10px 0;
+}
+
+label, input, button, select{
+	display: block;
+	margin: 4px 0 10px 0;
+}
